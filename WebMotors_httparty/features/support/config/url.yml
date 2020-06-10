@@ -1,0 +1,8 @@
+url:
+  url_base: 'http://desafioonline.webmotors.com.br/api/OnlineChallenge/'
+  
+parameters:
+  parameter_make:     'Make'
+  parameter_model:    'Model?MakeID=id_model'
+  parameter_version:  'Version?ModelID=id_version'
+  parameter_vehicles: 'Vehicles?Page=id_page'

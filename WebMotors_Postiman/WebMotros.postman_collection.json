@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "2d9823f8-e766-4039-8763-5a16e95d7628",
+		"name": "WebMotros",
+		"description": "Testes realizados nas rotas de consultas da API da WebMotors",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Modelo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://desafioonline.webmotors.com.br/api/OnlineChallenge/Model?MakeID=1",
+					"protocol": "http",
+					"host": [
+						"desafioonline",
+						"webmotors",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"OnlineChallenge",
+						"Model"
+					],
+					"query": [
+						{
+							"key": "MakeID",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Marca",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://desafioonline.webmotors.com.br/api/OnlineChallenge/Make",
+					"protocol": "http",
+					"host": [
+						"desafioonline",
+						"webmotors",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"OnlineChallenge",
+						"Make"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Versao",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://desafioonline.webmotors.com.br/api/OnlineChallenge/Version?ModelID=1",
+					"protocol": "http",
+					"host": [
+						"desafioonline",
+						"webmotors",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"OnlineChallenge",
+						"Version"
+					],
+					"query": [
+						{
+							"key": "ModelID",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Veiculos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://desafioonline.webmotors.com.br/api/OnlineChallenge/Vehicles?Page=1",
+					"protocol": "http",
+					"host": [
+						"desafioonline",
+						"webmotors",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"OnlineChallenge",
+						"Vehicles"
+					],
+					"query": [
+						{
+							"key": "Page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

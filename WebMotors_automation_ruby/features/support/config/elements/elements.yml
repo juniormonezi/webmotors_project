@@ -1,0 +1,23 @@
+---
+
+# Elementos Páginas
+
+# HomePage
+btn_ofertas: 'div[class=NavBar__searchbar] > a'
+access_store: 'body > div > a'
+
+# PesquisaPage
+validate_title: 'div[class^=Search-result] > h1'
+search_marca_honda: 'div[class=CarouselContainer] > div > div > a:nth-child(4)'
+search_modelo: 'div[class*=Filters__line--gray]'
+set_modelo_city: 'div[class=Filters__container__group] > a:nth-child(3)'
+search_versao: 'div[class=Filters__make-block] > div:nth-child(2) > div:nth-child(3)'
+input_versao: 'div[class$=SlideLeft--opened] > div > div:nth-child(3) > div > input'
+set_versao: 'div[class$=Filters__container__group--no-border] > a'
+
+# EstoquePage
+input_model: 'div[class=Filters__container] > div:nth-child(4) > div > input'
+set_city_model: 'div[class=Filters__container__group] > a:nth-child(2)'
+# validate_css_text: '.sc-brqgnP.hEfohT'
+validate_css_text: '.sc-jAaTju.jjeMes'
+set_versao_estoque: 'div[class$=Filters__container__group--no-border] > a:nth-child(3)'

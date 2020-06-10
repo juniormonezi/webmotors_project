@@ -1,0 +1,9 @@
+# Scripts para execução
+
+default: -p pretty -p ci -p html_report -p json_report -p url
+
+url: ENVIRONMENT_TYPE=url
+pretty: --format pretty
+ci: --format progress
+html_report: --format html --out=log/report.html
+json_report: --format json --out=log/report.json
