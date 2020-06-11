@@ -36,6 +36,7 @@ Execução do Projeto:
 4 => Executar o comando => cucumber (para executar todos os cenários)
 5 => Executar determinado único cenário especifico utilizar o comando => cucumber -t @tag_do_cenário
 6 => Para visualizar o report de execução, abrir o arquivo 'report.html' localizado dentro da pasta do projeto em = > 'log/report.html'
+
 Projeto: Automation WebMotors –  API / POSTMAN
 Ferramentas e versões utilizadas:
 Postman =>  7.25.0
